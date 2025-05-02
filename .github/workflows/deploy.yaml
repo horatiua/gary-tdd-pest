@@ -20,7 +20,7 @@ jobs:
 
       - name: Run Tests
         working-directory: ./app
-        run: composer run-phpunit
+        run: composer run-pest
 
 #      - run: |-
 #          docker build --target app -t horatiuandrei/gary-php-composer:1.0 -f ./php/Dockerfile .
