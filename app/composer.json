@@ -19,6 +19,6 @@
     }
   },
   "scripts": {
-    "run-phpunit": "vendor/bin/phpunit"
+    "run-pest": "vendor/bin/pest"
   }
 }
