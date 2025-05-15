@@ -62,8 +62,8 @@ RUN composer dump-autoload --optimize
 COPY ./php/conf.d/xdebug.ini $PHP_INI_DIR/conf.d/
 
 # Install xdebug
-RUN set -eux; \
-	install-php-extensions xdebug
+#RUN set -eux; \
+#	install-php-extensions xdebug
 
 # Init Pest
 RUN ./vendor/bin/pest --init

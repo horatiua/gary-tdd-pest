@@ -22,6 +22,7 @@ services:
       REDIS_HOST: cache
       REDIS_PORT: ${REDIS_PORT}
       X_API_KEY: ${X_API_KEY}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY}
     extra_hosts:
       # Ensure that host.docker.internal is correctly defined on Linux
       - host.docker.internal:host-gateway
